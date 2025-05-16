@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+.subdiv1Nav {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    background-color: white;
+    padding: 1.3rem;
+}
+.subdiv1Nav > ul {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+.subdiv1Nav > ul > .down {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid rgb(197, 193, 193);
+    border-radius: 60px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.subdiv1Nav > ul li{
+    font-size: medium;
+    font-weight: 500;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subdiv1Nav .logo {
+    font-size: 45px;
+    font-family: Arial, sans-serif;
+    color: #0073e6;
+}
+.subdiv1Nav .super {
+    font-size: 0.6rem;
+    vertical-align: super;
+}
+
+.subdiv2 {
+    background-image: url("images//image1.jpeg"); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the whole div */
+    background-position: center; /* Centers the image within the div */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    width: 100%; /* Adjust width as needed */
+    height: 600px; /* Adjust height as needed */
+    display: flex; /* Optional: For horizontal alignment of inner divs */
+    column-gap: 10px;
+    align-items: center; /* Optional: Center inner divs vertically */
+    justify-content: center; /* Optional: Center inner divs horizontally */
+    flex-direction: column;
+}
+.subdiv21 {
+    width: 1300px;
+}
+.subdiv21 > p {
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+.subdiv22 {
+    width: 1300px;
+    border-radius: 25px;
+}
+.subdiv22 ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    background-color: #fbf7f7;
+    padding: 10px;
+    justify-content: center;
+    margin-top: 1.3rem;
+    border: solid white;
+    border-radius: 20px;
+}
+.subdiv22 ul .list {
+    border: 1px solid rgb(129, 120, 120);
+    border-radius: 10px;
+    padding: 7px;
+    display: flex;
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: medium;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+.subdiv22 ul .a {
+    width: 1200px;
+}
+.subdiv22 ul .twins {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.subdiv22 ul .twins .twin .difff{
+    font-size: small;
+    margin-bottom: 2px;
+}
+.subdiv22 ul .twins .twin .diff {
+    margin-top: 2px;
+} 
+.twins .twin > li {
+    list-style: none;
+}
+
+.subdiv22 ul > .blueB {
+    background-color: rgb(20, 20, 53);
+    border-radius: 38px;
+    width: 40px;
+    padding: 15px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+/* Top Banner */
+.banner {
+    background-color: #111e39;
+    color: #fff;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 9px;
+    margin: 20px auto;
+    max-width: 78%;
+}
+
+.banner-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.banner-content i {
+    background-color: #a5c8ff; 
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.register-link {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Section Title */
+.section-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #111e39;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Carousel */
+.carousel {
+    display: flex;
+    overflow-x: auto;
+    gap: 16px;
+    padding: 0 20px;
+    max-width: 90%;
+    margin: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.carousel-item {
+    flex: 0 0 auto;
+    width: 200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    scroll-snap-align: start;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.carousel-item p {
+    margin: 0;
+    padding: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Section Title */
+.section-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1a2b50;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Carousel */
+.carousel {
+    display: flex;
+    overflow-x: auto;
+    gap: 16px;
+    padding: 0 20px;
+    max-width: 90%;
+    margin: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.carousel-item {
+    flex: 0 0 auto;
+    width: 200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    scroll-snap-align: start;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.carousel-item p {
+    margin: 0;
+    padding: 10px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+/* Browse Trips Section */
+.browse-trips {
+    text-align: center;
+    margin-top: 20px;
+    color: #1a2b50;
+}
+
+.browse-trips h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.browse-trips p {
+    font-size: 1rem;
+}
+
+.footer {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    border-top: 1px solid #e0e0e0;
+    font-size: 14px;
+    color: #333;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: auto;
+}
+.footer h3 {
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 10px;
+}
+.footer a {
+    color: #0073e6;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 8px;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.footer p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #666;
+}
